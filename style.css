@@ -1,0 +1,158 @@
+
+                                /*PROPRIEDADES GERAIS*/
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html,body{
+
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 1600px;
+}
+
+
+
+                                    /*CABEÇALHO*/
+
+
+
+
+header{
+    padding: 20px 0px 0px 0px;
+}
+
+.logo img{
+    width: 65px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0.2%;
+    
+    
+    
+}
+.logo{
+    width: 50%;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+}
+    
+.menu li a{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    
+}
+
+.menu a::after{
+position: absolute;
+   content: " ";
+   background-color: #007042;
+   width: 0%;
+   height: 3px;
+   left: 0%;
+   bottom: 0%;
+   transition: all 0.5s;
+   
+   
+    
+}
+.menu a:hover::after{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    
+
+}
+
+
+
+                            /*SECTION*/
+
+
+
+.sobre{
+    height: 562px;
+    position: relative;
+    
+}
+
+.extras{
+    position: absolute;
+    bottom: -250px;
+    right: -350px;
+    
+    width: 800px;
+    height: 800px;
+    background-color: #007042;
+    border-radius: 100%;
+}
+
+.social-midia{
+    position: absolute;
+    right:1%;
+    top: 125px;
+
+}
+.social-midia img{
+    display: flex;
+    width: 30px;
+    margin-top: 35px;
+}
+.texto{
+    margin-top: 100px;
+    font-size: 50px;
+}
+.texto h1{
+    font-size: 80px;
+}
+.center p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+
+.center{
+
+    max-width: 1100px;
+    margin: auto;
+    padding: 0.2%;
+    
+    
+}
+
+#btn-footer{
+    
+    margin-top: 100px;
+    margin-left: 20%;
+    border: 0;
+    background-color: #007042;
+    color: white;
+    border-radius: 40px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#btn-footer:hover{
+    background-color: #007041c9;
+}
