@@ -1,0 +1,49 @@
+
+#btnMob{
+    margin-top: 10px;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    background-color: #007041;
+    color: aliceblue;
+    border: none;
+    box-shadow: black 1px 0px 2px 1px;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+
+    .menu{
+        display: none;
+        position: absolute;    
+    }
+    
+    .open{
+    
+        display: block;
+        width: 30%;
+        top: 15%;
+        right:7% ;
+        list-style: none;
+        height: 30%;
+        background-color: #0070414d;
+        border-radius: 10%;
+        
+    }
+    li{
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+        
+    }
+@media (min-width:600px) {
+
+    #btnMob{
+        display: none;     
+}
+
+
+
+
+}
